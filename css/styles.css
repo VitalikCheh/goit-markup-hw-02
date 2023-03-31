@@ -23,13 +23,16 @@ body {
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
-  text-decoration: none;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-color-navyblue);
+  color: var(--color-iris);
+}
+.link {
+  text-decoration: none;
 }
 .header-logo-blue {
-  color: var(--color-iris);
+  color: var(--primary-color-navyblue);
 }
 .header-list {
   list-style: none;
@@ -197,13 +200,14 @@ body {
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-decoration: none;
   text-transform: uppercase;
-  color: var(--color-cloud);
-}
-.footer-logo-blue {
   color: var(--color-iris);
+}
+.footer-logo-cloud {
+  color: var(--color-cloud);
 }
 .footer-uppertitle {
   font-weight: 400;
