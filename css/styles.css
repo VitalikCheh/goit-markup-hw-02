@@ -14,8 +14,9 @@
 }
 /* Base styles */
 body {
-  font-family: Roboto, Montserrat, sans-serif;
-  color: var(--primary-color-navyblue);
+  font-family: Roboto, sans-serif;
+  color: var(--color-slate);
+  background-color: var(--color-white);
 }
 /* Header styles */
 .header-logo {
