@@ -34,7 +34,7 @@ body {
 .header-logo-blue {
   color: var(--primary-color-navyblue);
 }
-.header-list {
+.list {
   list-style: none;
 }
 .header-link {
