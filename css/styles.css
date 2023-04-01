@@ -52,24 +52,18 @@ body {
 .address {
   font-style: normal;
 }
-.header-mail {
+.address-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
 }
-.header-mail:hover,
-.header-mail:focus {
+.address-link:hover,
+.address-link:focus {
   color: var(--color-ocean);
 }
-.header-phone {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-slate);
-}
+
 /* Hero styles */
 .hero {
   background-color: var(--primary-color-navyblue);
@@ -84,6 +78,7 @@ body {
   color: var(--color-white);
 }
 .hero-btn {
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -97,15 +92,14 @@ body {
   background-color: var(--color-ocean);
 }
 /* Portfolio. Filter styles */
-.filter-list {
-  list-style: none;
-}
 .filter-btn {
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   text-decoration: none;
+  cursor: pointer;
   color: var(--color-iris);
   background-color: var(--color-cloud);
 }
@@ -115,9 +109,6 @@ body {
   background-color: var(--color-ocean);
 }
 /* Portfolio styles */
-.portfolio-list {
-  list-style: none;
-}
 .portfolio-title {
   font-weight: 500;
   font-size: 20px;
