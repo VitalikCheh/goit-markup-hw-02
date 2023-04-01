@@ -49,12 +49,14 @@ body {
 .header-link:focus {
   color: var(--color-ocean);
 }
+.address {
+  font-style: normal;
+}
 .header-mail {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
   color: var(--color-slate);
 }
 .header-mail:hover,
@@ -66,7 +68,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
   color: var(--color-slate);
 }
 /* Hero styles */
