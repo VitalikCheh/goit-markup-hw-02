@@ -6,7 +6,7 @@
   --color-slate: #434455;
   --color-lightslate: #8e8f99;
   --color-cornflower: #e7e9fc;
-  --color-cloud: #e7e9fc;
+  --color-cloud: #f4f4fd;
   --color-navybluemodal: #2e2f42;
   --color-grey: #2e2f42;
   --color-white: #ffffff;
@@ -80,14 +80,17 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-decoration: none;
+  text-align: center;
   color: var(--color-white);
 }
 .hero-btn {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--color-white);
   background-color: var(--color-iris);
+  cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -131,9 +134,6 @@ body {
 }
 
 /* Our Work styles*/
-.work {
-  list-style: none;
-}
 .work-title {
   font-weight: 500;
   font-size: 20px;
@@ -149,15 +149,13 @@ body {
   color: var(--color-slate);
 }
 /* We Doing styles */
-.wedoing-list {
-  list-style: none;
-}
 .wedoing-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
   color: var(--primary-color-navyblue);
 }
 /* Our Team styles */
@@ -170,10 +168,8 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
   color: var(--primary-color-navyblue);
-}
-.ourteam-list {
-  list-style: none;
 }
 .ourteam-item {
   background-color: var(--color-white);
